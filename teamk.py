@@ -49,6 +49,16 @@ def drawStarFish():
     k.penup()
     k.end_fill()
 
+def drawBalloon():
+  k.fillcolor("purple")
+  k.begin_fill()
+  k.circle(100)
+  k.setheading(-90)
+  k.forward(200)
+  k.end_fill()
+  k.hideturtle()
+
+drawBalloon()
 drawStarFish()
 drawSeaweed()    
 
