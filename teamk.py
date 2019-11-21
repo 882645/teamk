@@ -10,9 +10,6 @@ def reminder():
   # don't forget to put a comment with your name at the top of each function you make
   # this will help to keep track of who created each function
   return True
-  
-from turtle import *
-from random import *
 
 def drawSeaweed():
   #by gargaar
@@ -40,8 +37,19 @@ def drawSeaweed():
     k.hideturtle()
     k.end_fill()
 
-update()
+def drawStarFish():
+  #by gargaar
+    k.goto(randint(-100,250), randint(-2,250))
+    k.fillcolor("purple")
+    k.begin_fill()
+    k.pendown()
+    for i in range(5): #code for the star
+        k.left(144)
+        k.forward(100)
+    k.penup()
+    k.end_fill()
 
+drawStarFish()
 drawSeaweed()    
 
 
