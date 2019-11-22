@@ -1,5 +1,6 @@
 from turtle import *
 from random import*
+import math
 
 k = Turtle()
 
@@ -58,6 +59,27 @@ def drawBalloon():
   k.forward(200)
   k.end_fill()
   k.hideturtle()
+
+  k = Turtle()
+tracer(1)
+
+def drawCircle(centerX, centerY, radius, color):
+    k.penup()
+    k.goto(centerX,centerY)
+    k.setheading(0)
+    k.forward(radius)
+    k.right(90)
+    k.fillcolor(color)
+    k.begin_fill()
+    k.pendown()
+    for i in range(360):
+        k.forward(2*math.pi*radius/360)
+        k.right(1)
+    k.end_fill()
+
+
+
+drawCircle(100,100,55,"red")
 
 drawBalloon()
 drawStarFish()
