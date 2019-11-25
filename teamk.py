@@ -78,6 +78,36 @@ def drawCircle(centerX, centerY, radius, color):
         k.right(1)
     k.end_fill()
 
+    
+    
+def drawMan():
+    # by Bukhari
+    tracer(0)
+    k.setheading(0)
+    k.left(90)
+    k.forward(100)
+    k.right(90)
+    k.forward(50)
+    k.right(180)
+    k.forward(100)
+    k.right(180)
+    k.forward(50)
+    k.right(90)
+    k.forward(100)
+    k.left(45)
+    k.forward(75)
+    k.right(180)
+    k.forward(75)
+    k.left(45)
+    k.forward(75)
+    k.right(180)
+    k.forward(75)
+    k.left(90)
+    k.forward(125)
+    k.right(90)
+    k.circle(30)
+    update()
+ 
 
 
 drawCircle(100,100,55,"red")
@@ -85,6 +115,6 @@ drawCircle(100,100,55,"red")
 drawBalloon()
 drawStarFish()
 drawSeaweed()    
-
+drawMan()
 
 update()
