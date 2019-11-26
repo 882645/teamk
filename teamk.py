@@ -285,5 +285,6 @@ drawBalloon()
 drawStarFish()
 drawSeaweed()    
 drawMan()
+HotAirBalloon()
 
 update()
