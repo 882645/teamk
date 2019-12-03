@@ -79,6 +79,33 @@ def drawCircle(centerX, centerY, radius, color):
     k.end_fill()
 
     
+   
+  def drawRoad():
+    #By Bukhari Farah
+          k.pencolor("Black")
+          k.fillcolor("Black")
+          k.pendown()
+          k.begin_fill()
+          k.pencolor
+          k.forward(300)
+          k.left(90)
+          k.forward(100)
+          k.left(90)
+          k.forward(400)
+          k.left(90)
+          k.forward(100)
+          k.left(90)
+          k.forward(400)
+          k.left(90)
+          k.forward(30)
+          k.left(90)
+          k.forward(400)
+          k.right(90)
+          k.forward(50)
+          k.right(90)
+          k.forward(400)
+          k.end_fill()
+
     
 def drawMan():
     # by Bukhari
@@ -286,5 +313,6 @@ drawStarFish()
 drawSeaweed()    
 drawMan()
 HotAirBalloon()
+drawRoad()
 
 update()
