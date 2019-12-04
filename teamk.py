@@ -314,5 +314,8 @@ drawSeaweed()
 drawMan()
 HotAirBalloon()
 drawRoad()
+drawCar()
+drawBoat()
+drawBird()
 
 update()
