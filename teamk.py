@@ -183,7 +183,7 @@ def drawBoat():
   k.end_fill()
   
 def drawBird():
-  # by bird
+  # by kevin
   k.fillcolor(0,0,0)
   k.begin_fill()
   k.pendown()
